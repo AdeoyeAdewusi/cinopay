@@ -1,0 +1,319 @@
+.pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 36px;
+}
+.pay p{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+/* or 172% */
+
+text-align: center;
+
+color: #7C8A9F;
+}
+.pay h1{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+/* or 135% */
+
+text-align: center;
+
+color: #390B0B;
+}
+.pay h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* CinoPay Color */
+    
+    color: #0B3939;
+}
+.payDis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-top: 56px;
+}
+.sections p{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+/* CinoPay Color */
+
+color: #0B3939;
+}
+.dermatology{
+    width: 193px;
+height: 175px;
+    /* padding: 40px 36px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background: #FFF6E8;
+border-radius: 32px;
+}
+
+.fertiity{
+    width: 193px;
+height: 175px;
+    /* padding: 40px 36px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background: #ff910043;
+border-radius: 32px;
+}
+.eyecare{
+    width: 193px;
+height: 175px;
+    /* padding: 40px 36px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background: #EEFFEB;
+border-radius: 32px;
+}
+.dentalcare{
+    background: #5c93e16f;
+    border-radius: 32px;
+    width: 193px;
+height: 175px;
+    /* padding: 40px 36px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.atlete{
+    background: #FFEAEA;
+    border-radius: 32px;
+    width: 193px;
+height: 175px;
+    /* padding: 40px 36px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.about{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 122px;
+}
+.offer{
+    background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+border-radius: 12px;
+padding: 16px;
+margin-bottom: 10px;
+width: fit-content;
+}
+.offer p:nth-child(1){
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #136464;
+}
+.offer p:nth-child(2){
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #7C8A9F;
+}
+.login{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 12px; 
+    padding: 16px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.login p:nth-child(1){
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3B1364;
+}
+.login p:nth-child(2){
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #7C8A9F; 
+}
+.unlock{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 12px; 
+    padding: 16px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.unlock p:nth-child(1){
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3B1364;
+}
+.unlock p:nth-child(2){
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #7C8A9F; 
+}
+.recieve{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 12px; 
+    padding: 16px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.recieve p:nth-child(1){
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #3B6413;    
+}
+.recieve p:nth-child(2){
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #7C8A9F; 
+}
+.how{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 57px;
+
+color: #453323;
+}
+.hea{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-transform: uppercase;
+
+/* Text Color */
+
+color: #7C8A9F;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 142px;
+    margin-bottom: 67px;
+}
+.generalFaq{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.generalFaq h1{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    
+    color: #453323;
+}
+.generalFaq  p{
+
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #7C8A9F;
+
+}
+.mainFaqs{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+}
+.mainFaqs div{
+    background: #FFFFFF;
+border-radius: 12px;
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+padding: 20px 32px;
+color: #136464;
+width: 100%;
+
+}
+.mainFaqs div:hover{
+cursor: pointer;
+}
+.faqBg{
+    background: #F9F9F9;
+    margin-top: 35px;
+}

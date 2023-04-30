@@ -1,0 +1,23 @@
+.over{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px ;
+    padding-bottom: 26px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.hr{
+    height: 12px;
+    rotate: 20deg;
+    color: #7C8A9F;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,116 @@
+.outer{
+    padding: 80px 85px;
+}
+.inner{
+    background: #FFFFFF;
+box-shadow: 2px 0px 16px rgba(19, 100, 100, 0.03);
+border-radius: 12px;
+padding: 48px 48px;
+}
+.innerLg{
+    display: flex;
+    justify-content: flex-start;
+}
+.innerTopCopy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.innerTopCopy h1{
+font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+/* or 131% */
+
+text-align: center;
+
+/* Black */
+
+color: #000000;
+}
+.innerTopCopy p{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #7C8A9F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.auths{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 175px;
+}
+.authsCopyDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    background: #F0F0F0;
+border-radius: 12px;
+padding: 74px 12px;
+width: 30%;
+max-width: 300px;
+min-width: 300px;
+text-align: center;
+
+}
+.auths div:hover{
+    cursor: pointer;
+}
+.authOuter{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authsCopy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.authsCopy p:nth-child(1){
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.authsCopy p:nth-child(2){
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+text-align: center;
+
+color: #8B8C8C;
+
+}

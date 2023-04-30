@@ -1,0 +1,92 @@
+.footerBg{
+    background: #0B3939;
+    padding: 68px 105px 24px 105px;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.footerContent h1{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.footerContent p{
+
+font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+
+/* Grey 3 */
+
+color: #D4D4D4;
+}
+.footerSocials{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.footerSocials div{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #0E2D2D;
+    width: 40px;
+height: 40px;
+}
+.footerbtm{
+    margin-top: 136px;
+    display: flex;
+    justify-content: center;
+}
+.footerbtm p{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    
+    
+    /* Grey 3 */
+    
+    color: #D4D4D4;    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 26px;
+}
+.company div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+.product div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.help div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
